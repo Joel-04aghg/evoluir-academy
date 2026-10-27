@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Curso da área de tecnologia">
+  <rect width="400" height="220" fill="#dbe9f7"/>
+  <circle cx="340" cy="40" r="60" fill="#0b3c6f" opacity=".08"/>
+  <rect x="90" y="40" width="220" height="130" rx="10" fill="#10243b"/>
+  <rect x="100" y="50" width="200" height="110" rx="5" fill="#0b3c6f"/>
+  <rect x="115" y="66" width="30" height="7" rx="3.5" fill="#f5a623"/>
+  <rect x="150" y="66" width="70" height="7" rx="3.5" fill="#9bd0ff"/>
+  <rect x="125" y="84" width="90" height="7" rx="3.5" fill="#fff" opacity=".8"/>
+  <rect x="125" y="102" width="60" height="7" rx="3.5" fill="#f5a623"/>
+  <rect x="190" y="102" width="70" height="7" rx="3.5" fill="#9bd0ff"/>
+  <rect x="115" y="120" width="110" height="7" rx="3.5" fill="#fff" opacity=".8"/>
+  <rect x="115" y="138" width="40" height="7" rx="3.5" fill="#f5a623"/>
+  <path d="M60 172h280l-14 16H74z" fill="#10243b"/>
+  <text x="330" y="70" font-family="monospace" font-size="34" fill="#0b3c6f" font-weight="700">&lt;/&gt;</text>
+</svg>

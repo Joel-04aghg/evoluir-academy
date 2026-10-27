@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Curso da área de saúde">
+  <rect width="400" height="220" fill="#e0f4ee"/>
+  <circle cx="60" cy="180" r="70" fill="#0b8a6b" opacity=".08"/>
+  <rect x="160" y="40" width="80" height="80" rx="16" fill="#fff"/>
+  <rect x="192" y="52" width="16" height="56" rx="4" fill="#d64545"/>
+  <rect x="172" y="72" width="56" height="16" rx="4" fill="#d64545"/>
+  <path d="M30 170h90l14-30 22 56 20-46 14 20h186" fill="none" stroke="#0b8a6b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(-30 -6) scale(.95 1)"/>
+  <path d="M320 60c0-12 16-14 20-2 4-12 20-10 20 2 0 14-20 26-20 26s-20-12-20-26z" fill="#d64545" opacity=".85"/>
+</svg>

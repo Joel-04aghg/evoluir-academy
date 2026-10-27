@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Curso da área de gestão">
+  <rect width="400" height="220" fill="#fdf1dc"/>
+  <circle cx="350" cy="190" r="70" fill="#f5a623" opacity=".15"/>
+  <rect x="80" y="130" width="40" height="50" rx="4" fill="#0b3c6f"/>
+  <rect x="140" y="100" width="40" height="80" rx="4" fill="#124f8f"/>
+  <rect x="200" y="70" width="40" height="110" rx="4" fill="#1b6bb5"/>
+  <rect x="260" y="40" width="40" height="140" rx="4" fill="#f5a623"/>
+  <rect x="60" y="180" width="260" height="6" rx="3" fill="#10243b"/>
+  <path d="M85 112l60-30 56-14 80-30" fill="none" stroke="#d64545" stroke-width="5" stroke-linecap="round"/>
+  <path d="M290 30l-1 18 15-8z" fill="#d64545" transform="translate(-6 -6)"/>
+</svg>

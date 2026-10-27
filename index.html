@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Futuro Técnico | Escola Profissionalizante</title>
+  <meta name="description" content="Cursos profissionalizantes com foco no mercado de trabalho.">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topo" id="topo">
+    <a href="#inicio" class="marca">
+      <img src="img/logo.svg" alt="" width="36" height="36">
+      <span>Instituto Futuro Técnico</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="menu" class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#simulador">Simulador</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato" class="btn-menu">Matricule-se</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SEÇÃO 1: INÍCIO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+      <div class="hero-conteudo">
+        <p class="selo">Matrículas abertas 2027</p>
+        <h1>Aprenda uma profissão e entre no mercado de trabalho</h1>
+        <p class="hero-texto">Cursos práticos, professores com experiência de mercado e certificado reconhecido. Do primeiro dia ao primeiro emprego.</p>
+        <div class="hero-botoes">
+          <a href="#cursos" class="btn btn-primario">Ver cursos</a>
+          <a href="#contato" class="btn btn-secundario">Fale conosco</a>
+        </div>
+        <ul class="numeros">
+          <li><strong data-alvo="5000">0</strong><span>alunos formados</span></li>
+          <li><strong data-alvo="12">0</strong><span>cursos técnicos</span></li>
+          <li><strong data-alvo="92">0</strong><span>% de empregabilidade</span></li>
+        </ul>
+      </div>
+      <img class="hero-img" src="img/hero.svg" alt="Ilustração de estudante com computador, capelo e engrenagem" width="520" height="420">
+    </div>
+    </section>
+
+    <!-- SEÇÃO 2: SOBRE -->
+    <section id="sobre" class="secao">
+      <div class="container">
+        <h2>Por que estudar conosco?</h2>
+        <p class="sub">Formamos profissionais prontos para as exigências do mercado.</p>
+        <img class="sobre-img" src="img/sobre.svg" alt="Instrutor ministrando aula prática para alunos em laboratório" width="560" height="360" loading="lazy">
+        <div class="grade tres">
+          <article class="card">
+            <div class="icone">🛠️</div>
+            <h3>Aulas práticas</h3>
+            <p>Laboratórios equipados e projetos reais desde o início do curso.</p>
+          </article>
+          <article class="card">
+            <div class="icone">👩‍🏫</div>
+            <h3>Professores do mercado</h3>
+            <p>Instrutores que atuam na área e trazem a realidade das empresas para a sala.</p>
+          </article>
+          <article class="card">
+            <div class="icone">🤝</div>
+            <h3>Apoio ao emprego</h3>
+            <p>Parcerias com empresas, orientação de currículo e banco de vagas exclusivo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: CURSOS -->
+    <section id="cursos" class="secao alt">
+      <div class="container">
+        <h2>Nossos cursos</h2>
+        <p class="sub">Escolha a área e encontre o curso ideal para você.</p>
+        <div class="filtros" id="filtros">
+          <button class="filtro ativo" data-cat="todos">Todos</button>
+          <button class="filtro" data-cat="tecnologia">Tecnologia</button>
+          <button class="filtro" data-cat="saude">Saúde</button>
+          <button class="filtro" data-cat="gestao">Gestão</button>
+          <button class="filtro" data-cat="industria">Indústria</button>
+        </div>
+        <div class="grade quatro" id="listaCursos">
+          <article class="curso" data-cat="tecnologia">
+            <img src="img/curso-tecnologia.svg" alt="" width="400" height="220" loading="lazy">
+            <span class="tag">Tecnologia</span>
+            <h3>Desenvolvimento de Sistemas</h3>
+            <p>Lógica, web, banco de dados e aplicativos.</p>
+            <small>18 meses • Noturno</small>
+          </article>
+          <article class="curso" data-cat="tecnologia">
+            <img src="img/curso-tecnologia.svg" alt="" width="400" height="220" loading="lazy">
+            <span class="tag">Tecnologia</span>
+            <h3>Redes de Computadores</h3>
+            <p>Infraestrutura, servidores e segurança.</p>
+            <small>12 meses • Noturno</small>
+          </article>
+          <article class="curso" data-cat="saude">
+            <img src="img/curso-saude.svg" alt="" width="400" height="220" loading="lazy">
+            <span class="tag">Saúde</span>
+            <h3>Técnico em Enfermagem</h3>
+            <p>Cuidado ao paciente com estágio supervisionado.</p>
+            <small>24 meses • Manhã</small>
+          </article>
+          <article class="curso" data-cat="saude">
+            <img src="img/curso-saude.svg" alt="" width="400" height="220" loading="lazy">
+            <span class="tag">Saúde</span>
+            <h3>Radiologia</h3>
+            <p>Técnicas de diagnóstico por imagem.</p>
+            <small>24 meses • Tarde</small>
+          </article>
+          <article class="curso" data-cat="gestao">
+            <img src="img/curso-gestao.svg" alt="" width="400" height="220" loading="lazy">
+            <span class="tag">Gestão</span>
+            <h3>Administração</h3>
+            <p>Finanças, pessoas, processos e empreendedorismo.</p>
+            <small>18 meses • Noturno</small>
+          </article>
+          <article class="curso" data-cat="gestao">
+            <img src="img/curso-gestao.svg" alt="" width="400" height="220" loading="lazy">
+            <span class="tag">Gestão</span>
+            <h3>Logística</h3>
+            <p>Estoque, transporte e cadeia de suprimentos.</p>
+            <small>12 meses • Manhã</small>
+          </article>
+          <article class="curso" data-cat="industria">
+            <img src="img/curso-industria.svg" alt="" width="400" height="220" loading="lazy">
+            <span class="tag">Indústria</span>
+            <h3>Eletrotécnica</h3>
+            <p>Instalações elétricas e automação industrial.</p>
+            <small>18 meses • Tarde</small>
+          </article>
+          <article class="curso" data-cat="industria">
+            <img src="img/curso-industria.svg" alt="" width="400" height="220" loading="lazy">
+            <span class="tag">Indústria</span>
+            <h3>Mecânica</h3>
+            <p>Usinagem, manutenção e projetos mecânicos.</p>
+            <small>18 meses • Noturno</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 4: SIMULADOR (interação JS) -->
+    <section id="simulador" class="secao">
+      <div class="container estreito">
+        <h2>Simule seu investimento</h2>
+        <p class="sub">Veja a mensalidade estimada do seu curso.</p>
+        <form id="formSimulador" class="simulador" novalidate>
+          <label for="selCurso">Curso</label>
+          <select id="selCurso">
+            <option value="450">Desenvolvimento de Sistemas</option>
+            <option value="400">Redes de Computadores</option>
+            <option value="520">Técnico em Enfermagem</option>
+            <option value="540">Radiologia</option>
+            <option value="380">Administração</option>
+            <option value="360">Logística</option>
+            <option value="470">Eletrotécnica</option>
+            <option value="480">Mecânica</option>
+          </select>
+
+          <label for="selPlano">Forma de pagamento</label>
+          <select id="selPlano">
+            <option value="0">Mensal (sem desconto)</option>
+            <option value="0.10">À vista no semestre (10% off)</option>
+            <option value="0.15">Bolsa por indicação (15% off)</option>
+          </select>
+
+          <button type="submit" class="btn btn-primario">Calcular</button>
+          <div id="resultado" class="resultado" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 5: DEPOIMENTOS -->
+    <section id="depoimentos" class="secao alt">
+      <div class="container estreito">
+        <h2>Quem estudou, recomenda</h2>
+        <div class="carrossel">
+          <button id="anterior" class="seta" aria-label="Depoimento anterior">‹</button>
+          <blockquote id="depoimento" class="depoimento"></blockquote>
+          <button id="proximo" class="seta" aria-label="Próximo depoimento">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 6: CONTATO -->
+    <section id="contato" class="secao">
+      <div class="container estreito">
+        <h2>Fale conosco</h2>
+        <p class="sub">Deixe seus dados e retornamos em até 1 dia útil.</p>
+        <form id="formContato" class="simulador" novalidate>
+          <label for="nome">Nome</label>
+          <input id="nome" type="text" placeholder="Seu nome completo">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" placeholder="voce@email.com">
+          <label for="interesse">Curso de interesse</label>
+          <select id="interesse">
+            <option>Desenvolvimento de Sistemas</option>
+            <option>Redes de Computadores</option>
+            <option>Técnico em Enfermagem</option>
+            <option>Radiologia</option>
+            <option>Administração</option>
+            <option>Logística</option>
+            <option>Eletrotécnica</option>
+            <option>Mecânica</option>
+          </select>
+          <button type="submit" class="btn btn-primario">Enviar</button>
+          <div id="msgContato" class="resultado" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p><strong>Instituto Futuro Técnico</strong> — Escola Profissionalizante</p>
+      <p>Av. Exemplo, 1000 • (11) 4000-0000 • contato@futurotecnico.edu.br</p>
+      <p class="copy">© 2026 Instituto Futuro Técnico. Projeto acadêmico com empresa fictícia.</p>
+    </div>
+  </footer>
+
+  <button id="voltarTopo" class="voltar" aria-label="Voltar ao topo">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="Alunos aprendendo com tecnologia">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b6bb5"/><stop offset="1" stop-color="#0b3c6f"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="500" height="400" rx="28" fill="url(#g)" opacity=".55"/>
+  <circle cx="420" cy="90" r="46" fill="#f5a623" opacity=".9"/>
+  <circle cx="80" cy="340" r="30" fill="#fff" opacity=".12"/>
+  <!-- monitor -->
+  <rect x="110" y="110" width="300" height="190" rx="14" fill="#10243b"/>
+  <rect x="122" y="122" width="276" height="160" rx="8" fill="#f2f6fb"/>
+  <rect x="140" y="140" width="110" height="10" rx="5" fill="#0b3c6f"/>
+  <rect x="140" y="160" width="160" height="8" rx="4" fill="#9db4cc"/>
+  <rect x="140" y="178" width="130" height="8" rx="4" fill="#9db4cc"/>
+  <rect x="140" y="196" width="150" height="8" rx="4" fill="#9db4cc"/>
+  <rect x="140" y="226" width="80" height="28" rx="14" fill="#f5a623"/>
+  <rect x="300" y="140" width="80" height="100" rx="8" fill="#0b3c6f"/>
+  <path d="M312 220l16-24 14 14 24-34" fill="none" stroke="#f5a623" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="240" y="300" width="40" height="30" fill="#10243b"/>
+  <rect x="195" y="330" width="130" height="12" rx="6" fill="#10243b"/>
+  <!-- capelo -->
+  <path d="M70 200l50-22 50 22-50 22z" fill="#fff"/>
+  <path d="M92 214v22c0 8 12 14 28 14s28-6 28-14v-22l-28 12z" fill="#e3eaf2"/>
+  <rect x="166" y="202" width="4" height="34" fill="#f5a623"/>
+  <!-- engrenagem -->
+  <g transform="translate(430 330)">
+    <circle r="34" fill="none" stroke="#f5a623" stroke-width="14" stroke-dasharray="13.4 13.4"/>
+    <circle r="28" fill="#f5a623"/>
+    <circle r="12" fill="#0b3c6f"/>
+  </g>
+  <!-- cruz -->
+  <g transform="translate(70 100)" fill="#fff">
+    <rect x="-8" y="-24" width="16" height="48" rx="4"/>
+    <rect x="-24" y="-8" width="48" height="16" rx="4"/>
+  </g>
+</svg>
